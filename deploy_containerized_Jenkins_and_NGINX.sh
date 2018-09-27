@@ -11,6 +11,7 @@
 #########################################################################################################################
 
 # Start Jenkins
+echo 
 echo "***** Starting Jenkins Docker Container..."
 echo
 /var/lib/docker/git-repos/jenkins_docker_cto/pull.sh
