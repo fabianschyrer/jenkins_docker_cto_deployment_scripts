@@ -10,11 +10,13 @@
 #                                                                                                                     	#
 #########################################################################################################################
 
-# Killing Docker Containers
 echo 
+
+# Killing Docker Containers
 echo "***** Killing running containers ..."
 echo
 docker kill jenkins-cto nginx-jenkins-cto
+echo
 
 # Deleting Docker Containers
 echo "***** Deleting containers ..."
@@ -42,22 +44,27 @@ echo
 
 # Docker Status
 echo "***** Docker Networks: "
+echo
 docker network list
 echo
 
 echo "***** Docker Jenkins Network: "
+echo
 docker network inspect jenkins-network
 echo
 
 echo "***** Docker Images: "
+echo
 docker image list
 echo
 
 echo "***** All Docker Containers: "
+echo
 docker ps -a
 echo
 
 echo "***** Running Docker Containers: "
+echo
 docker ps
 echo 
 

@@ -10,8 +10,9 @@
 #                                                                                                                     	#
 #########################################################################################################################
 
-# Start Jenkins
 echo 
+
+# Start Jenkins
 echo "***** Starting Jenkins Docker Container..."
 echo
 /var/lib/docker/git-repos/jenkins_docker_cto/pull.sh
@@ -27,6 +28,7 @@ echo
 
 # Show initial Password
 echo "***** Your initial Jenkins password is: "
+echo
 docker exec jenkins-cto cat /var/jenkins_home/secrets/initialAdminPassword
 echo 
 echo "***** Please navigate to "
@@ -44,21 +46,26 @@ echo
 
 # Docker Status
 echo "***** Docker Networks: "
+echo
 docker network list
 echo
 
 echo "***** Docker Jenkins Network: "
+echo
 docker network inspect jenkins-network
 echo
 
 echo "***** Docker Images: "
+echo
 docker image list
 echo
 
 echo "***** All Docker Containers: "
+echo
 docker ps -a
 echo
 
 echo "***** Running Docker Containers: "
+echo
 docker ps
 echo 
