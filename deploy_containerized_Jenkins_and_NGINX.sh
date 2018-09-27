@@ -22,6 +22,7 @@ echo
 
 # Wait 180 Seconds
 echo "***** Waiting 240 Seconds / 4 Minutes in order for Jenkins to start up and install all the required Plugins. "
+echo 
 echo "***** Waiting ..."
 sleep 60
 echo
