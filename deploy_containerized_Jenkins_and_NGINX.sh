@@ -19,10 +19,10 @@ echo
 /var/lib/docker/git-repos/jenkins_docker_cto/run.sh
 echo
 
-# Wait 120 Seconds
-echo "***** Waiting 120 Seconds in order for Jenkins to start up. "
+# Wait 180 Seconds
+echo "***** Waiting 180 Seconds in order for Jenkins to start up. "
 echo "***** Waiting ..."
-sleep 120
+sleep 180
 echo
 
 # Show initial Password
