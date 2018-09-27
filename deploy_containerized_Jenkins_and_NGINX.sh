@@ -21,9 +21,18 @@ echo
 echo
 
 # Wait 180 Seconds
-echo "***** Waiting 180 Seconds in order for Jenkins to start up. "
+echo "***** Waiting 240 Seconds / 4 Minutes in order for Jenkins to start up and install all the required Plugins. "
 echo "***** Waiting ..."
-sleep 180
+sleep 60
+echo
+echo "***** Waiting ... / Still 3 Minutes to go"
+sleep 60
+echo
+echo "***** Waiting ... / Still 2 Minutes to go"
+sleep 60
+echo
+echo "***** Waiting ... / Still 1 Minutes to go"
+sleep 60
 echo
 
 # Show initial Password
