@@ -56,9 +56,9 @@ docker image list
 echo
 
 echo "***** All Docker Containers: "
-docker ps
+docker ps -a
 echo
 
 echo "***** Running Docker Containers: "
-docker ps -a
+docker ps
 echo 
