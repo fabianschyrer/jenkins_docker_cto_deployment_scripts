@@ -37,9 +37,10 @@ docker volume rm jenkins_home
 echo
 
 # Deleting Docker Images, ...
-echo "***** Cleaning System ..."
+echo "***** Deleting Docker Images ..."
 echo
-docker system prune -y
+docker rmi jenkins.docker.cto:latest
+docker rmi jenkins.docker.cto.nginx:latest
 echo
 
 # Docker Status
