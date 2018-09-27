@@ -49,11 +49,6 @@ echo
 docker network list
 echo
 
-echo "***** Docker Jenkins Network: "
-echo
-docker network inspect jenkins-network
-echo
-
 echo "***** Docker Images: "
 echo
 docker image list
@@ -69,5 +64,5 @@ echo
 docker ps
 echo 
 
-echo "Cleanup successful"
+echo "***** Cleanup successful! "
 echo
